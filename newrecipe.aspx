@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="newrecipe.aspx.vb" Inherits="newrecipe" %>
+﻿<%@ Page Language="VB" AutoEventWireup="False" CodeFile="newrecipe.aspx.vb" Inherits="detailsview" %>
 
 <!DOCTYPE html>
 
