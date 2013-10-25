@@ -30,12 +30,12 @@
         </div>
 
     <div>
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_HW5 %>" SelectCommand="SELECT * FROM [mainRTable]"></asp:SqlDataSource>
-<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="recipeID" DataSourceID="SqlDataSource1">
+    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:cs_HW5 %>" SelectCommand="SELECT [newId], [recipeName], [submittedBy] FROM [Recipes]"></asp:SqlDataSource>
+<asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="newId" DataSourceID="SqlDataSource1">
     <Columns>
-        <asp:BoundField DataField="recipeName" HeaderText="Recipe Name" SortExpression="recipeName" />
-        <asp:BoundField DataField="submittedBy" HeaderText="Submitted By" SortExpression="submittedBy" />
-        <asp:HyperLinkField DataNavigateUrlFields="recipeId" DataNavigateUrlFormatString="detailsview.aspx?recipeId={0}" HeaderText="Submitted By" Text="Select" />
+        <asp:BoundField DataField="recipeName" HeaderText="recipeName" SortExpression="recipeName" />
+        <asp:BoundField DataField="submittedBy" HeaderText="submittedBy" SortExpression="submittedBy" />
+        <asp:HyperLinkField DataNavigateUrlFields="newId" DataNavigateUrlFormatString="detailsview.aspx?newId={0}" Text="Select" />
     </Columns>
 </asp:GridView>
     </div>

@@ -11,14 +11,14 @@
     <form id="form1" runat="server">
 
                <div id="heading">
-            <h1>Wicked Easy Recipies</h1>
+            <h1>Wicked Easy Recipes</h1>
             Using 5 Ingredients or Less!
         </div>
 
         <br />
    <div id="nav">
             <a href="./Default.aspx">Home</a> &#124;
-            <a href="./newrecipe.aspx">New Recipie</a> &#124;
+            <a href="./newrecipe.aspx">New Recipe</a> &#124;
             <a href="./AboutUs.aspx">About Us</a> &#124;
              <a href="./Contact.aspx">Contact</a> &#124;
 
