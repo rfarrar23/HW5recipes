@@ -1,24 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 2012 for Web
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HW5recipes", ".", "{DB9FDC39-4C3F-4640-B395-3DC229C1C669}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HW5recipes", ".", "{7DD5DA69-9392-4E16-AA35-AB0AB88604EA}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/HW5recipes"
-		Debug.AspNetCompiler.PhysicalPath = "..\HW5recipes\"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\HW5recipes\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\HW5recipes\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/HW5recipes"
-		Release.AspNetCompiler.PhysicalPath = "..\HW5recipes\"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\HW5recipes\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\HW5recipes\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "52229"
+		VWDPort = "61794"
 	EndProjectSection
 EndProject
 Global
@@ -26,8 +26,8 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DB9FDC39-4C3F-4640-B395-3DC229C1C669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DB9FDC39-4C3F-4640-B395-3DC229C1C669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD5DA69-9392-4E16-AA35-AB0AB88604EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD5DA69-9392-4E16-AA35-AB0AB88604EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -58,20 +58,30 @@
                 <asp:Parameter Name="newId" Type="Int32" />
             </UpdateParameters>
           </asp:SqlDataSource>
-        <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="newId" DataSourceID="SqlDataSource1" Height="94px" Width="410px" DefaultMode="Insert">
+        <asp:DetailsView ID="DetailsView1" 
+            runat="server" 
+            AutoGenerateRows="False" 
+            DataKeyNames="newId" 
+            DataSourceID="SqlDataSource1" 
+            Height="94px" 
+            Width="410px" 
+            DefaultMode="Insert"
+            CssClass="cssgridview"
+            headerStyle-CssClass="header">
             <Fields>
-                <asp:BoundField DataField="newId" HeaderText="newId" SortExpression="newId" InsertVisible="False" ReadOnly="True" />
-                <asp:BoundField DataField="recipeName" HeaderText="recipeName" SortExpression="recipeName" />
-                <asp:BoundField DataField="submittedBy" HeaderText="submittedBy" SortExpression="submittedBy" />
-                <asp:BoundField DataField="ingredientOne" HeaderText="ingredientOne" SortExpression="ingredientOne" />
-                <asp:BoundField DataField="ingredientTwo" HeaderText="ingredientTwo" SortExpression="ingredientTwo" />
-                <asp:BoundField DataField="ingredientThree" HeaderText="ingredientThree" SortExpression="ingredientThree" />
-                <asp:BoundField DataField="ingredientFour" HeaderText="ingredientFour" SortExpression="ingredientFour" />
-                <asp:BoundField DataField="ingredientFive" HeaderText="ingredientFive" SortExpression="ingredientFive" />
-                <asp:BoundField DataField="recipePrep" HeaderText="recipePrep" SortExpression="recipePrep" />
-                <asp:BoundField DataField="recipeNotes" HeaderText="recipeNotes" SortExpression="recipeNotes" />
+                <asp:BoundField DataField="recipeName" HeaderText="Recipe Name" SortExpression="recipeName" />
+                <asp:BoundField DataField="submittedBy" HeaderText="Submitted By" SortExpression="submittedBy" />
+                <asp:BoundField DataField="ingredientOne" HeaderText="Ingredient One" SortExpression="ingredientOne" />
+                <asp:BoundField DataField="ingredientTwo" HeaderText="Ingredient Two" SortExpression="ingredientTwo" />
+                <asp:BoundField DataField="ingredientThree" HeaderText="Ingredient Three" SortExpression="ingredientThree" />
+                <asp:BoundField DataField="ingredientFour" HeaderText="Ingredient Four" SortExpression="ingredientFour" />
+                <asp:BoundField DataField="ingredientFive" HeaderText="Ingredient Five" SortExpression="ingredientFive" />
+                <asp:BoundField DataField="recipePrep" HeaderText="Recipe Prep" SortExpression="recipePrep" />
+                <asp:BoundField DataField="recipeNotes" HeaderText="Recipe Notes" SortExpression="recipeNotes" />
                 <asp:CommandField ShowInsertButton="True" />
             </Fields>
+
+<HeaderStyle CssClass="header"></HeaderStyle>
         </asp:DetailsView>
     
     </div>

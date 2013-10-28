@@ -32,13 +32,13 @@
        <div id="contact">
            <asp:Label ID="Label1" runat="server" Text="Your E-Mail Address"></asp:Label>
            <br />
-           <asp:TextBox ID="emailAddress" runat="server" BorderStyle="Inset" Height="32px" Width="229px"></asp:TextBox>
+           <asp:TextBox ID="email" runat="server" BorderStyle="Inset" Height="32px" Width="229px"></asp:TextBox>
            <br />
            <br />
            <asp:Label ID="Label2" runat="server" Text="Your Message:"></asp:Label>
            <br />
 
-           <asp:TextBox ID="message" runat="server" BorderStyle="Outset" Height="135px" Width="255px"></asp:TextBox>
+           <asp:TextBox ID="messageBox" runat="server" BorderStyle="Outset" Height="135px" Width="255px"></asp:TextBox>
        </div>
         </form>
      
